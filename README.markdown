@@ -44,12 +44,10 @@ Now that your project supports Couchbase, starting Cocuhbase is accomplished by 
 
 3.  Add a method to start Couchbase
 
-    
-      public void startCouchbase() {
-        CouchbaseMobile couch = new CouchbaseMobile(getBaseContext(), mCallback);
-        couchServiceConnection = couch.startCouchbase();
-      }
-    
+	public void startCouchbase() {
+		CouchbaseMobile couch = new CouchbaseMobile(getBaseContext(), mCallback);
+		couchServiceConnection = couch.startCouchbase();
+	}
 
 4.  Call the startCouchbase method from the appropriate Activity lifecycle methods.  For many applications the onCreate method is appropriate
 
