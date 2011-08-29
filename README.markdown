@@ -24,7 +24,6 @@ NOTE: Do not use the source in this repository, only the binary Downloads and in
 Now that your project supports Couchbase, starting Cocuhbase is accomplished by adding a few things to your application's Main Activity.
 
 1.  Create an instance of ICouchbaseDelegate, you can implement these methods to respond to Couchbase events
-
 <pre>    
     private final ICouchbaseDelegate mCallback = new ICouchbaseDelegate.Stub() {
         @Override
@@ -39,7 +38,6 @@ Now that your project supports Couchbase, starting Cocuhbase is accomplished by 
 </pre>
 
 2.  Declare an ServiceConnection instance to keep a reference to the Couchbase service
-
 <pre>
     private ServiceConnection couchServiceConnection;
 </pre>
@@ -53,7 +51,6 @@ Now that your project supports Couchbase, starting Cocuhbase is accomplished by 
 </pre>
 
 4.  Call the startCouchbase method from the appropriate Activity lifecycle methods.  For many applications the onCreate method is appropriate
-
 <pre>    
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
