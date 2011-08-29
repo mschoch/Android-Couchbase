@@ -4,8 +4,8 @@ NOTE: Do not use the source in this repository, only the binary Downloads and in
 
 ## Prerequisites
 
-Android SDK
-Eclipse ADT
+- Android SDK
+- Eclipse ADT
 
 ## Instructions
 
