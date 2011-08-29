@@ -12,8 +12,8 @@ NOTE: Do not use the source in this repository, only the binary Downloads and in
 1.  Create a new Android project or select an existing project
 
 2.  Download Couchbase.zip and couchbase.xml into the top-level of the project:
-- https://github.com/downloads/mschoch/Android-Couchbase/Couchbase.zip
-- https://github.com/downloads/mschoch/Android-Couchbase/couchbase.xml
+  - https://github.com/downloads/mschoch/Android-Couchbase/Couchbase.zip
+  - https://github.com/downloads/mschoch/Android-Couchbase/couchbase.xml
 
 3.  Right-click on couchbase.xml and select Run As > Ant Build
 
@@ -23,7 +23,7 @@ NOTE: Do not use the source in this repository, only the binary Downloads and in
 
 Now that your project supports Couchbase, starting Cocuhbase is accomplished by adding a few things to your application's Main Activity.
 
-1.  Create an instance of ICouchbaseDelegate
+1.  Create an instance of ICouchbaseDelegate, you can implement these methods to respond to Couchbase events
 
 <pre>    
     private final ICouchbaseDelegate mCallback = new ICouchbaseDelegate.Stub() {
