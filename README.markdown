@@ -13,8 +13,8 @@ NOTE: Do not use the source in this repository, only the binary Downloads and in
 
 2.  Download Couchbase.zip and couchbase.xml into the top-level of the project:
 
-https://github.com/downloads/mschoch/Android-Couchbase/Couchbase.zip
-https://github.com/downloads/mschoch/Android-Couchbase/couchbase.xml
+- https://github.com/downloads/mschoch/Android-Couchbase/Couchbase.zip
+- https://github.com/downloads/mschoch/Android-Couchbase/couchbase.xml
 
 3.  Right-click on couchbase.xml and select Run As > Ant Build
 
