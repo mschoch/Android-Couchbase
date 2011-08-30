@@ -22,7 +22,7 @@ If you have questions or get stuck or just want to say hi, email <mobile@couchba
 
 These instructions require you to have installed Eclipse and the Android SDK, the [Android developer website](http://developer.android.com/sdk/installing.html) has instructions.
 
-## Installing Couchbase into your application
+## Installing Couchbase into your Application
 
 1.  Create a new Android project or select an existing project
 
