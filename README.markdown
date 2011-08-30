@@ -92,7 +92,7 @@ For examples please look at https://github.com/couchbase/Android-EmptyApp
 
 To build the Android-Couchbase project from source run the following ant command:
 
-  ant -Dsdk.dir=/path/to/android/sdk dist
+    ant -Dsdk.dir=/path/to/android/sdk dist
 
 Replacing the value for sdk.dir with the path to the Android SDK on the build server.
 
