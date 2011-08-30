@@ -24,6 +24,8 @@ These instructions require you to have installed Eclipse and the Android SDK, th
 
 ## Installing Couchbase into your Application
 
+NOTE: You do not need the source of this repository to use Mobile Couchbase in your Android application.
+
 1.  Create a new Android project or select an existing project
 
 2.  Download the Android-Couchbase.zip
