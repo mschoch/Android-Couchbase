@@ -37,7 +37,7 @@ Now that your project supports Couchbase, starting Cocuhbase is accomplished by 
     };
 </pre>
 
-2.  Declare an ServiceConnection instance to keep a reference to the Couchbase service
+2.  Declare a ServiceConnection instance to keep a reference to the Couchbase service
 <pre>
     private ServiceConnection couchServiceConnection;
 </pre>
@@ -65,4 +65,4 @@ Now that your project supports Couchbase, starting Cocuhbase is accomplished by 
 
 For help or more information please join the Couchbase Mobile Google Group:
 
-Google Group here for Mobile Couchbase
+https://groups.google.com/group/mobile-couchbase
